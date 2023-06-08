@@ -1,0 +1,373 @@
+@font-face {
+  font-family: myFont;
+  src: url(/src/font/U8-Regular.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+:root {
+  --paddingValue: 1.4em 3em;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+
+ }
+
+ #navContainer {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 20px 0 #0C1825;
+  background-color: #fff;
+  z-index: 211111;
+ }
+
+.nav {
+  padding: var(--paddingValue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#brandCon {
+  display: flex;
+  align-items: center;
+}
+
+#navLink {
+  display: flex;
+  gap: 50px;
+}
+
+#navLink a {
+  text-decoration: none;
+  color: #000;
+  font: 1.2em;
+  font-weight: 400;
+}
+
+#accountCreation a, #signUp {
+  padding: 0.8em;
+  border: 2px solid #0C1825;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#signIn {
+  color: #0C1825;
+  transition: .6s ease;
+}
+
+#signIn:hover {
+  color: #1362D5;
+}
+
+#signUp {
+  color: #fff;
+  background-color: #0C1825;
+  transition: .6s ease;
+}
+
+#signUp:hover {
+  background-color: #1362D5;
+  border: 2px solid #1362D5;
+}
+
+#heroSection {
+  height: 125vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--paddingValue);
+}
+
+#heroSection div {
+  flex-basis: 45%;
+}
+
+#heroText h1 {
+  font-size: 4em;
+}
+
+#heroText p {
+  font-size: 1.2em;
+  font-family: myFont;
+}
+
+#appDownload {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+#playStore, #appStore {
+  border: 1px solid grey;
+  padding: 10px;
+  width: auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  transition: .4s ease-in-out;
+  gap: 5px;
+  color: #0C1825;
+  text-decoration: none;
+}
+
+#playStore:hover, #appStore:hover {
+  transform: translateY(-5px)
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  width: 400px;
+  height: 140vh;
+  background-color: #F8F9FA;
+  z-index: -1;
+}
+
+#heroImg {
+  background-image: url("src/image/rect_ccb22b6667.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 2em 0;
+  position: relative;
+  z-index: -1;
+}
+
+#card1, #card2 {
+  position: absolute;
+  width: 200px;
+}
+
+#card1 {
+  top: 30%;
+  left: -4.5em;
+}
+
+#card2 {
+  top: 70%;
+  right: 2.5em;
+}
+
+#angleDotted, #circle, #blueDotted {
+  position: absolute;
+}
+
+#angleDotted {
+  left: -1em;
+  top: 0;
+}
+
+#circle {
+  top: 30%;
+  right: 7.5em;
+}
+
+#blueDotted {
+  left: 0;
+  top: 70%;
+}
+
+#securityCon {
+  padding: var(--paddingValue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#securityCon a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #1362D5;
+  transition: .4s ease-in-out;
+  position: relative;
+}
+
+#securityCon a::after, #accessText a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  transition: .4s ease-in-out;
+}
+
+#securityCon a::after {
+  background-color: #1362D5;
+}
+
+#securityCon a:hover::after, #accessText a:hover::after {
+  width: 100%;
+}
+
+#securityImg {
+  flex-basis: 35%;
+  padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: myFont;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.2em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 2.2em;
+}
+
+#securityImg img {
+  float: right;
+}
+
+#securityText {
+  flex-basis: 65%;
+  padding: 1em;
+}
+
+#buildSavingCon {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--paddingValue);
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+#buildSaving {
+  flex-basis: 30%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+#buildSavingCards {
+  flex-basis: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+#cards {
+  flex-basis: 47%;
+  background-color: #f9f9f9;
+  padding: 2em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#cards a, a span {
+  color: #0C1825;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+  font-weight: bold;
+}
+
+#cards:hover a {
+  transform: translateX(10px);
+}
+
+#accessInvestCon {
+  padding: var(--paddingValue);
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#accessImg {
+  flex-basis: 35%;
+  height: 100%;
+  position: relative;
+}
+
+#accessImg img {
+  max-width: 100%;
+  max-height: 100%;
+  float: right;
+}
+
+#accessText {
+  flex-basis: 55%;
+  padding-right: 15%;
+}
+
+#bigCircle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+#purpleDotted {
+  position: absolute;
+  top: 40px;
+  right: -40px;
+}
+
+#upTo {
+  color: #7913E5;
+  background-color: #F7F0FF;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  font-weight: bold;
+}
+
+#accessText p {
+  font-size: large;
+}
+
+#accessText a {
+  text-decoration: none;
+  color: #7913E5;
+  font-weight: bold;
+  position: relative;
+}
+
+#accessText a::after {
+  background-color: #7913E5;
+}
+
+#blueCon {
+  display: flex;
+  height: 90vh;
+}
+
+#blueText {
+  flex-basis: 60%;
+  background-color: #0D60D8;
+  padding: 80px 200px 80px 80px;
+  color: #fff;
+}
+
+#blueImg {
+  flex-basis: 40%;
+  background-image: url(/src/image/man\ with\ pilllow.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#blueText a {
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+
+#blueText a span {
+  color: #fff;
+}
