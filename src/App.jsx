@@ -8,6 +8,7 @@ import AccessInvestment from './components/AccessInvestment'
 import BlueCon from './components/BlueCon'
 import CustomerSec from './components/CustomerSec'
 import Feature from './components/Feature'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <BlueCon/>
       <CustomerSec/>
       <Feature/>
+      <Footer/>
     </>
   )
 }

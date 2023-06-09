@@ -406,3 +406,42 @@ h4 {
 #featureImg img {
   width: 150px;
 }
+
+footer {
+  padding: var(--paddingValue);
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h6, footer a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  margin-bottom: 1.2em;
+}
+
+footer a:hover {
+  color: #0D60D8;
+}
+
+#compliance {
+  width: 150px;
+}
+
+#footerImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer i {
+  margin-right: 10px;
+  font-size: 24px;
+  transition: .3s ease-in-out;
+}
+
+
+footer i:hover {
+  transform: translateY(-2px);
+}
