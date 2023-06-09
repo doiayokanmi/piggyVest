@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import './phone.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import SecuritySection from './components/SecuritySection'

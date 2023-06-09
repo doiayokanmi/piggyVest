@@ -20,7 +20,9 @@ const BlueCon = () => {
           </a>
         </div>
 
-        <div id="blueImg"></div>
+        <div id="blueImg">
+          <img src="/src/image/man with pilllow.jpg" className="img-fluid" alt="" />
+        </div>
       </section>
     </>
   );

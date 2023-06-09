@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="nav">
           <div id="brandCon">
             <a href="">
-              <img src={logoImg} className="me-5" />
+              <img src={logoImg} className="me-5 img-fluid" />
             </a>
 
             <div id="navLink">
@@ -34,6 +34,8 @@ const Navbar = () => {
             <a href="" className="me-2" id="signIn">Sign In</a>
             <a href="" id="signUp">Create free Account</a>
           </div>
+
+          <i className="fa-solid fa-bars d-lg-none"></i>
         </nav>
       </div>
     </>

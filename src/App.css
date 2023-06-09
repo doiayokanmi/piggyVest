@@ -9,6 +9,14 @@
   --paddingValue: 1.4em 3em;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+i {
+  cursor: pointer;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -346,21 +354,22 @@ h4 {
 
 #blueCon {
   display: flex;
-  height: 90vh;
 }
 
 #blueText {
-  flex-basis: 60%;
+  flex-basis: 55%;
   background-color: #0D60D8;
   padding: 80px 200px 80px 80px;
   color: #fff;
 }
 
 #blueImg {
-  flex-basis: 40%;
-  background-image: url(/src/image/man\ with\ pilllow.jpg);
-  background-size: cover;
-  background-position: center;
+  flex-basis: 45%;
+}
+
+#blueImg img {
+  width: 100%;
+  height: 100%;
 }
 
 #blueText a {
@@ -409,23 +418,33 @@ h4 {
 
 footer {
   padding: var(--paddingValue);
+  font-size: 12px;
+  font-weight: 500;
+
+}
+
+#footerLink {
   display: flex;
   justify-content: space-between;
 }
 
-footer h6, footer a {
-  font-size: 14px;
+#footerLink div {
+  flex-basis: calc(100%/5);
+}
+
+#footerLink h6, #footerLink a {
+  font-size: 13px;
   text-decoration: none;
   color: #000;
   display: block;
-  margin-bottom: 1.2em;
+  margin-bottom: 1em;
 }
 
-footer a:hover {
+#footerLink a:hover {
   color: #0D60D8;
 }
 
-#compliance {
+#footerImg img {
   width: 150px;
 }
 

@@ -3,7 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="mt-5">
+      <footer className="mt-5 py-5">
+        <div id="footerLink">
         <div id="footerImg">
           <img
             src="/src/image/PiggyVest Logo (1).svg"
@@ -55,12 +56,21 @@ const Footer = () => {
             </a>
           </h6>
           <a href="">
-            Tesmot house, Abdulrahman Okene <br /> close, Victoria Island,
+            Tesmot house, Abdulrahman Okene close, Victoria Island,
             Lagos, Nigeria.
           </a>
           <a href="">contact@piggyvest.com</a>
           <a href="">+234 700 933 933 933</a>
         </div>
+        </div>
+
+        <p className="text-center mt-5">
+        Piggyvest (formerly piggybank.ng) is the leading online savings & investing platform in Nigeria. For over 6 years, our <br /> customers have saved and invested billions of Naira that they would normally be tempted to spend.
+        </p>
+
+        <p className="text-center text-primary">
+        2016 - 2023 PiggyTech Global Limited - RC 1405222
+        </p>
       </footer>
     </>
   );

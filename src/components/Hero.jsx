@@ -37,7 +37,7 @@ const Hero = () => {
           <img
             src="/src/image/header_Img_a2a9220bd6.png"
             alt=""
-            className="ms-4 animate__animated animate__slideInRight"
+            className="ms-4 animate__animated animate__slideInRight img-fluid"
           />
 
           <img src="/src/image/card1_565f256c81.png" alt="" id="card1" />

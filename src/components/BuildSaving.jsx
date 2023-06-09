@@ -4,7 +4,7 @@ const BuildSaving = () => {
   return (
     <>
       <section id="buildSavingCon">
-        <div id="buildSaving" className="mt-5">
+        <div id="buildSaving" className="my-5">
           <h3>4 ways to build your savings</h3>
 
           <p className="mb-5">
