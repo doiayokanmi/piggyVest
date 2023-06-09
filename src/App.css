@@ -371,3 +371,38 @@ h4 {
 #blueText a span {
   color: #fff;
 }
+
+#customerCon {
+  padding: var(--paddingValue);
+  display: flex;
+}
+
+#customerText, #customerComment {
+  flex-basis: 50%;
+}
+
+#customerText {
+  padding-right: 180px ;
+}
+
+#featureCon {
+  display: flex;
+  gap: 50px;
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+#featureText {
+  flex-basis: 30%;
+}
+
+#featureImg {
+  display: flex;
+  flex-basis: 70%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#featureImg img {
+  width: 150px;
+}
