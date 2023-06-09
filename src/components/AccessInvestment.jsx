@@ -16,7 +16,7 @@ const AccessInvestment = () => {
             Up To 25% Returns
           </p>
 
-          <h2 className="mbb-4">Access investment opportunities</h2>
+          <h3 className="mbb-4">Access investment opportunities</h3>
 
           <p className="my-4">
             Invest securely and confidently on the go. Grow your money
