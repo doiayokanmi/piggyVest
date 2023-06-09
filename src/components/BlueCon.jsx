@@ -16,7 +16,7 @@ const BlueCon = () => {
 
           <a href="" className="mt-5">
             <img src="/src/image/arrowDeepBlue.svg" alt="" className="me-2" />
-            <span>Meet The Soile's</span>
+            <span>Meet The Soiles</span>
           </a>
         </div>
 

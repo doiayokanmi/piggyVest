@@ -23,7 +23,7 @@ const AccessInvestment = () => {
             confidently by investing in pre-vetted investment opportunities.
           </p>
 
-          <a href="">Learn more about Investments > </a>
+          <a href="">Learn more about Investments </a>
         </div>
       </section>
     </>

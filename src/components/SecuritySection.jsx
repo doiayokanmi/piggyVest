@@ -18,7 +18,7 @@ const SecuritySection = () => {
                 </p>
 
                 <a href="">
-                    Learn more >
+                    Learn more
                 </a>
             </div>
         </section>
