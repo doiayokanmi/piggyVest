@@ -167,6 +167,7 @@
       #footerLink div:nth-child(1) {
         flex-basis: 100%;
         align-items: start;
+        margin-bottom: 20px;
       }
 
       #footerLink div {
