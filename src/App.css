@@ -94,6 +94,7 @@ i {
   justify-content: space-between;
   align-items: center;
   padding: var(--paddingValue);
+  margin-bottom: 30px;
 }
 
 #heroSection div {
@@ -118,7 +119,6 @@ i {
   border: 1px solid grey;
   padding: 10px;
   margin-right: 10px;
-  width: auto;
   border-radius: 10px;
   display: flex;
   align-items: center;
