@@ -143,6 +143,7 @@
       
       #featureText {
         flex-basis: 100%;
+        margin-bottom: 30px;
       }
       
       #featureImg {
