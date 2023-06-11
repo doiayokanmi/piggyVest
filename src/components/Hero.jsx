@@ -2,8 +2,8 @@ import React from "react";
 import "animate.css";
 
 const Hero = () => {
-  let appLogo = "/src/image/download-apple.svg";
-  let playLogo = "/src/image/download-google.svg";
+  let appLogo = "/image/download-apple.svg";
+  let playLogo = "/image/download-google.svg";
   return (
     <>
       <section id="heroSection">
@@ -35,18 +35,18 @@ const Hero = () => {
 
         <div id="heroImg">
           <img
-            src="/src/image/header_Img_a2a9220bd6.png"
+            src="/image/header_Img_a2a9220bd6.png"
             alt=""
             className="ms-4 animate__animated animate__slideInRight img-fluid"
           />
 
-          <img src="/src/image/card1_565f256c81.png" alt="" id="card1" />
+          <img src="/image/card1_565f256c81.png" alt="" id="card1" />
 
-          <img src="/src/image/card2_7a8c09a44c.png" alt="" id="card2" />
+          <img src="/image/card2_7a8c09a44c.png" alt="" id="card2" />
 
-          <img src="/src/image/circle.svg" alt="" id="circle" />
-          <img src="/src/image/angle.svg" alt="" id="blueDotted" />
-          <img src="/src/image/blueDotted.svg" alt="" id="angleDotted" />
+          <img src="/image/circle.svg" alt="" id="circle" />
+          <img src="/image/angle.svg" alt="" id="blueDotted" />
+          <img src="/image/blueDotted.svg" alt="" id="angleDotted" />
         </div>
       </section>
     </>

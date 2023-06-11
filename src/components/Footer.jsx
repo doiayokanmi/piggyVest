@@ -7,13 +7,13 @@ const Footer = () => {
         <div id="footerLink">
         <div id="footerImg">
           <img
-            src="/src/image/PiggyVest Logo (1).svg"
+            src="/image/PiggyVest Logo (1).svg"
             alt=""
             className="img-fluid"
           />{" "}
           <br />
           <img
-            src="/src/image/compliance Logo.png"
+            src="/image/compliance Logo.png"
             alt=""
             className="img-fluid"
             id="compliance"

@@ -19,7 +19,7 @@ const BuildSaving = () => {
         <div id="buildSavingCards">
           <div id="cards">
             <img
-              src="/src/image/piggy_df88262015.png"
+              src="/image/piggy_df88262015.png"
               alt=""
               width={"50px"}
               className="mb-5"
@@ -33,7 +33,7 @@ const BuildSaving = () => {
               </p>
               <a href="">
                 <img
-                  src="/src/image/arrowDeepBlue.svg"
+                  src="/image/arrowDeepBlue.svg"
                   alt=""
                   className="me-2"
                 />
@@ -44,7 +44,7 @@ const BuildSaving = () => {
 
           <div id="cards">
             <img
-              src="/src/image/safelock_4e737ba7d3.png"
+              src="/image/safelock_4e737ba7d3.png"
               alt=""
               width={"50px"}
               className="mb-5"
@@ -57,7 +57,7 @@ const BuildSaving = () => {
               </p>
               <a href="">
                 <img
-                  src="/src/image/arrowBlue.svg"
+                  src="/image/arrowBlue.svg"
                   alt=""
                   className="me-2"
                 />
@@ -68,7 +68,7 @@ const BuildSaving = () => {
 
           <div id="cards">
             <img
-              src="/src/image/target_6c049f3410.png"
+              src="/image/target_6c049f3410.png"
               alt=""
               width={"50px"}
               className="mb-5"
@@ -81,7 +81,7 @@ const BuildSaving = () => {
               </p>
               <a href="">
                 <img
-                  src="/src/image/arrowGreen.svg"
+                  src="/image/arrowGreen.svg"
                   alt=""
                   className="me-2"
                 />
@@ -92,7 +92,7 @@ const BuildSaving = () => {
 
           <div id="cards">
             <img
-              src="/src/image/flex_d090f8bce2.png"
+              src="/image/flex_d090f8bce2.png"
               alt=""
               width={"50px"}
               className="mb-5"
@@ -105,7 +105,7 @@ const BuildSaving = () => {
               </p>
               <a href="">
                 <img
-                  src="/src/image/arrowRedd.svg"
+                  src="/image/arrowRedd.svg"
                   alt=""
                   className="me-2"
                 />

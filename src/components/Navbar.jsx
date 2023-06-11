@@ -1,7 +1,7 @@
 import React from "react";
 
 const Navbar = () => {
-  let logoImg = "/src/image/PiggyVest Logo.svg";
+  let logoImg = "/image/PiggyVest Logo.svg";
   return (
     <>
       <div id="navContainer">

@@ -9,9 +9,9 @@ const Feature = () => {
             </div>
 
             <div id="featureImg">
-                <img src="/src/image/brand (1).png" alt="" className='img-fluid' />
-                <img src="/src/image/brand (2).png" alt="" className='img-fluid' />
-                <img src="/src/image/brand.png" alt="" className='img-fluid'/>
+                <img src="/image/brand (1).png" alt="" className='img-fluid' />
+                <img src="/image/brand (2).png" alt="" className='img-fluid' />
+                <img src="/image/brand.png" alt="" className='img-fluid'/>
             </div>
         </section>
     </>

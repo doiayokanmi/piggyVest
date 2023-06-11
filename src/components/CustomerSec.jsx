@@ -1,8 +1,8 @@
 import React from "react";
 
 const CustomerSec = () => {
-  let appLogo = "/src/image/download-apple.svg";
-  let playLogo = "/src/image/download-google.svg";
+  let appLogo = "/image/download-apple.svg";
+  let playLogo = "/image/download-google.svg";
   return (
     <>
       <section id="customerCon">

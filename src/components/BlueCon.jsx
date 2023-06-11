@@ -15,13 +15,13 @@ const BlueCon = () => {
           </p>
 
           <a href="" className="mt-5">
-            <img src="/src/image/arrowDeepBlue.svg" alt="" className="me-2" />
+            <img src="/image/arrowDeepBlue.svg" alt="" className="me-2" />
             <span>Meet The Soiles</span>
           </a>
         </div>
 
         <div id="blueImg">
-          <img src="/src/image/man with pilllow.jpg" className="img-fluid" alt="" />
+          <img src="/image/man with pilllow.jpg" className="img-fluid" alt="" />
         </div>
       </section>
     </>

@@ -5,7 +5,7 @@ const SecuritySection = () => {
     <>
         <section id="securityCon">
             <div id="securityImg">
-                <img src="/src/image/security icon.png" alt="" width={"100px"} />
+                <img src="/image/security icon.png" alt="" width={"100px"} />
             </div>
 
             <div id="securityText">
