@@ -430,6 +430,7 @@ footer {
 
 #footerLink div {
   flex-basis: calc(100%/5);
+  margin-bottom: 10px;
 }
 
 #footerLink h6, #footerLink a {
