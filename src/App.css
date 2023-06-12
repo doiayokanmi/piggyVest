@@ -1,16 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 @font-face {
   font-family: myFont;
   src: url(/src/font/U8-Regular.otf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
-
 :root {
   --paddingValue: 1.4em 3em;
 }
 
-body, #root {
-  overflow-x: hidden;
+body {
+  overflow-x: hidden !important;
 }
 
 i {
@@ -28,7 +28,6 @@ i {
  #navContainer {
   position: sticky;
   top: 0;
-  box-shadow: 0 0 20px 0 #0C1825;
   background-color: #fff;
   z-index: 211111;
  }

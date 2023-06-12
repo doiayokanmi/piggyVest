@@ -27,7 +27,7 @@ const BuildSaving = () => {
             <h5 className="mb-4">Automated Savings</h5>
 
             <div className="d-flex flex-column gap-5">
-              <p>
+              <p className="mb-4">
                 Build a dedicated savings faster on your terms automatically or
                 manually.
               </p>
@@ -52,7 +52,7 @@ const BuildSaving = () => {
             <h5 className="mb-4">Fixed Savings</h5>
 
             <div className="d-flex flex-column gap-5">
-              <p>
+              <p className="mb-4">
               Lock money away for a fixed duration with no access to it until maturity. It’s like having a custom fixed deposit.
               </p>
               <a href="">
@@ -76,7 +76,7 @@ const BuildSaving = () => {
             <h5 className="mb-4">Goal-oriented Savings</h5>
 
             <div className="d-flex flex-column gap-5">
-              <p>
+              <p className="mb-4">
               Reach all your savings goals faster. Save towards multiple goals on your own or with a group.
               </p>
               <a href="">
@@ -100,7 +100,7 @@ const BuildSaving = () => {
             <h5 className="mb-4">Flexible Savings</h5>
 
             <div className="d-flex flex-column gap-5">
-              <p>
+              <p className="mb-4">
               Save, transfer, withdraw, manage and organise your money for free at any time.
               </p>
               <a href="">
